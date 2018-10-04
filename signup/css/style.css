@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.typography
+{
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+}
+.text-black
+{
+	color:  #000000;
+}
+.text-white
+{
+	color:  #ffffff;
+}
+.text-gray
+{
+	color:  #969696;
+}
+.bg-blue
+{
+	background-color:  #17a2d4 !important;
+}
+.mt-20
+{
+	margin-top: 20px;
+}
+.mb-20
+{
+	margin-bottom: 20px;
+}
+.mt-80
+{
+	margin-top: 80px;
+}
+.mr-30
+{
+	margin-right: 30px;
+}
+.pull-left
+{
+	float: left; 
+}
+.pull-right
+{
+	float: right; 
+}
+.radius-3
+{
+	border-radius: 3px;
+}
+.clearfix {
+    clear: both;
+}
+.signup-box
+{
+	width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.signup-box-heading
+{
+	background-color:  #17a2d4;
+	color:  #f4f4f4;
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 20px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.signup-box-content
+{
+	padding:20px;
+	text-align: center;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.textfield
+{
+	border-width: 1px;
+	border-color:  #e8e8e8;
+	border-style: solid;
+	background-color:  #f6f6f6;
+	width: 100%;
+	padding: 17px;
+}
+.submit-btn {
+	width: 100%;
+	background-color:  #17a2d4;
+	border: none;
+	padding: 15px;
+	cursor: pointer;
+}
+.signup-icon
+{
+	padding-left: 4%;
+	font-size: 40px;
+	margin-top: -15px;
+}
+.social-profiles
+{
+	width: 100%;
+}
+.social-btn
+{
+	width: 48%;
+	padding: 19px 0px;
+	color:  #ffffff;
+	font-weight: 400;
+	text-align: center;
+}
+.fb
+{
+	background-color:  #3b5998;
+}
+.gplus
+{
+	background-color:  #d34836;
+}
+.member-type
+{
+	border-width: 1px;
+	border-color:  #e8e8e8;
+	border-style: solid;
+	background-color:  #f6f6f6;
+	width: 188px;
+	border-collapse: collapse;
+	padding: 17px;
+}
+.backlink
+{
+	font-size:15px;
+	color: #000000;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 4px;
+  background-clip: content-box;
+  border: 2px solid #ccc;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: #fff;
+  border: 2px solid #fff;
+}
